@@ -1,0 +1,39 @@
+body{
+	background: url('imagens/fundo.png');
+}
+#cabecalho {
+	background: rgb(212, 211, 190);
+	padding: 10px;
+}
+#cabecalho img{
+	width: 100%;
+	height: 50%;
+}
+#cabecalho ul{
+	list-style: none;
+
+}
+#cabecalho li{
+	font-size: 10pt;
+	font-family: "Arial Black";
+	display: inline;
+	margin: 5px;
+}
+#cabecalho a{
+	text-decoration: none;
+	color: black;
+}
+#cabecalho li a:hover{
+	color: gray;
+}
+#corpo{
+	background: white;
+	padding: 10px;
+}
+#corpo h2{
+	color: rgb(212, 180, 200);
+}
+
+#rodape{
+	text-align: center;
+}

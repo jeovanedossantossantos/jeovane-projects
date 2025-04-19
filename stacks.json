@@ -1,0 +1,178 @@
+{
+    "nodejs": [
+        {
+            "description": "Projeto utilizando Node.js",
+            "link": "https://apivirtualicone.netlify.app",
+            "name": "API Virtual Ícone",
+            "img": "img/apivirtualicone.png"
+        },
+        {
+            "description": "Projeto utilizando Node.js",
+            "link": "https://github.com/jeovanedossantossantos/todo-app-backend",
+            "name": "Todo App Backend",
+            "img": "img/todo_backend.png"
+        }
+    ],
+    "java_spring": [
+        {
+            "description": "Projeto utilizando Java + Spring",
+            "link": "https://banco-dev-week-production.up.railway.app/swagger-ui/index.html",
+            "name": "Banco Dev Week",
+            "img": "img/devweek_spring.png"
+        }
+    ],
+    "python_dango": [
+        {
+            "description": "Projeto utilizando Python + Django para o curso profissionalizante que fui instrutor.",
+            "link": "https://github.com/jeovanedossantossantos/senacApi",
+            "name": "Senac API",
+            "img": "img/senac_api.png"
+        }
+    ],
+    "html_css": [
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./00_projeto_unes/index.html",
+            "name": "UNES",
+            "img": "img/unes.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./01_projeto_ana_bela/index.html",
+            "name": "Ana Bela",
+            "img": "img/ana_bela.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./02_projeto_blog_tec/index.html",
+            "name": "Blog Tech",
+            "img": "img/blog_tec.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./03_projeto_parallax/index.html",
+            "name": "Parallax",
+            "img": "img/parallax.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./04_projeto_noticia_cidade/index.html",
+            "name": "Notícia Cidade",
+            "img": "img/noticia_cidade.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./05_projeto_chale_hotel/index.html",
+            "name": "Chalé Hotel",
+            "img": "img/chale_hotel.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./06_projeto_museu_nascional/index.html",
+            "name": "Museu Nacional",
+            "img": "img/museu_nacional.png"
+        },
+        {
+            "description": "Projeto utilizando HTML e CSS",
+            "link": "./07_projeto_sportify/index.html",
+            "name": "Sportify",
+            "img": "img/sportify.png"
+        }
+    ],
+    "html_css_js": [
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./08_projeto_mata_mosca/index.html",
+            "name": "Mata Mosca",
+            "img": "img/mata_mosca.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./09_projeto_home_page_de_epresa/index.html",
+            "name": "Home Page Empresa",
+            "img": "img/home_empresa.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./10-Projeto_hora_do_dia/index.html",
+            "name": "Hora do Dia",
+            "img": "img/hora_dia.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./11-Projeto_Verificador-de-Idade/index.html",
+            "name": "Verificador de Idade",
+            "img": "img/verificador_idade.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./12-Projeto_Vamos_Contar/index.html",
+            "name": "Vamos Contar",
+            "img": "img/vamos_contar.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./13-Projeto_Tabuada/index.html",
+            "name": "Tabuada",
+            "img": "img/tabuada.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./14-Projeto_Analisando_Número/index.html",
+            "name": "Analisando Número",
+            "img": "img/analisando_numero.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./15_Projeto_Videos/index.html",
+            "name": "Vídeos",
+            "img": "img/videos.png"
+        },
+        {
+            "description": "Projeto utilizando HTML, CSS e JS",
+            "link": "./16_projeto_glass/index.html",
+            "name": "Glass",
+            "img": "img/glass.png"
+        }
+    ],
+    "react": [
+        {
+            "description": "Projeto utilizando React",
+            "link": "https://my-spotify-eosin.vercel.app/",
+            "name": "My Spotify",
+            "img": "img/my_spotify.png"
+        },
+        {
+            "description": "Projeto utilizando React",
+            "link": "https://coffeexp.vercel.app/",
+            "name": "CoffeeXP",
+            "img": "img/coffeexp.png"
+        }
+    ],
+    "react_native": [
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/mines",
+            "name": "Campo Minado",
+            "img": "img/mines.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/calculadora",
+            "name": "Calculadora",
+            "img": "img/calculadora.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/rncrud",
+            "name": "CRUD Mobile",
+            "img": "img/rncrud.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/task",
+            "name": "Task Manager",
+            "img": "img/task.png"
+        }
+    ]
+}

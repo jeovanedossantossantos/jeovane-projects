@@ -1,161 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Meus Projetos</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <!-- Materialize CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 91, 255, 1) 0%, rgba(132, 176, 255, 1) 100%);
-            color: #fff;
+            background-color: #ccc;
         }
 
-        main,
-        .lista {
-            min-height: 100vh;
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        h2 {
-            margin: 20px 0;
-            font-size: 1.8rem;
-        }
-
-        .ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px 0;
-            width: 100%;
-        }
-
-        .ul li {
-            width: 100%;
-            max-width: 300px;
-            min-width: 200px;
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        iframe {
-            width: 100%;
-            height: 200px;
-            border-radius: 10px;
-            border: none;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        a {
-            margin-top: 10px;
-            background-color: white;
-            color: #007bff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: background 0.3s ease;
-        }
-
-        a:hover {
-            background-color: #f0f0f0;
-        }
-
-        .voltar {
-            margin-bottom: 1rem;
+        .card img {
+            max-height: 150px;
+            object-fit: cover;
         }
     </style>
 </head>
 
 <body>
+    <div class="container my-5">
+        <!-- Introdução -->
+        <div class="text-center mb-4">
+            <h1>Olá meu nome é Jeovane!</h1>
 
-    <main id="main">
-        <a href="#lista">Olá, clique aqui para ver todos os projetos que eu já fiz!</a>
-    </main>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="https://github.com/jeovanedossantossantos" target="_blank"
+                    class="text-dark text-decoration-none">
+                    <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/github.svg" alt="GitHub" width="32"
+                        height="32">
+                    <span>Github: jeovanedossantossantos</span>
+                </a>
+                <a href="https://www.linkedin.com/in/jeovanesantos/" target="_blank"
+                    class="text-dark text-decoration-none">
+                    <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/linkedin.svg" alt="LinkedIn" width="32"
+                        height="32">
+                    <span>LinkedIn: jeovanesantos</span>
+                </a>
+            </div>
+        </div>
 
-    <div class="lista" id="lista">
-        <a href="#main" class="voltar">Voltar</a>
-        <h2>Apenas HTML e CSS, não responsivos</h2>
-        <ul class="ul">
-            <li><iframe src="./00_projeto_unes/index.html"></iframe><a href="./00_projeto_unes/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./01_projeto_ana_bela/index.html"></iframe><a href="./01_projeto_ana_bela/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./02_projeto_blog_tec/index.html"></iframe><a href="./02_projeto_blog_tec/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./03_projeto_parallax/index.html"></iframe><a href="./03_projeto_parallax/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./04_projeto_noticia_cidade/index.html"></iframe><a href="./04_projeto_noticia_cidade/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./05_projeto_chale_hotel/index.html"></iframe><a href="./05_projeto_chale_hotel/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./06_projeto_museu_nascional/index.html"></iframe><a href="./06_projeto_museu_nascional/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./07_projeto_sportify/index.html"></iframe><a href="./07_projeto_sportify/index.html" target="_blank">Ver site</a></li>
-        </ul>
-        <a href="#js">Com JavaScript</a>
+        <div>
+
+
+            <p>Aqui estão alguns projeto que fiz durante minha caminhada de estudos.
+                Caso queira conhecer outros projetos acesse meu github ou caso queira conversar acesse meu Linkerdin
+            </p>
+
+            <p>Explore os projetos organizados por tecnologia. Use o filtro abaixo para selecionar a tecnologia
+                desejada.
+            </p>
+
+        </div>
+
+        <!-- Filtro -->
+        <div class="mb-4">
+            <select id="filter" class="form-select">
+                <option value="all">Todos</option>
+                <option value="html_css">HTML e CSS</option>
+                <option value="html_css_js">HTML, CSS e JavaScript</option>
+                <option value="react">React</option>
+                <option value="react_native">React Native</option>
+                <option value="nodejs">Node.js</option>
+                <option value="java_spring">Java + Spring</option>
+                <option value="python_dango">Python + Django</option>
+            </select>
+        </div>
+
+        <!-- Área dos Cards -->
+        <div id="projects" class="row g-4">
+            <!-- Os cards serão inseridos aqui dinamicamente -->
+        </div>
     </div>
 
-    <div class="lista" id="js">
-        <a href="#lista" class="voltar">Voltar</a>
-        <h2>Com HTML, CSS e JS não responsivos</h2>
-        <ul class="ul">
-            <li><iframe src="./08_projeto_mata_mosca/index.html"></iframe><a href="./08_projeto_mata_mosca/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./09_projeto_home_page_de_epresa/index.html"></iframe><a href="./09_projeto_home_page_de_epresa/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./10-Projeto_hora_do_dia/index.html"></iframe><a href="./10-Projeto_hora_do_dia/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./11-Projeto_Verificador-de-Idade/index.html"></iframe><a href="./11-Projeto_Verificador-de-Idade/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./12-Projeto_Vamos_Contar/index.html"></iframe><a href="./12-Projeto_Vamos_Contar/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./13-Projeto_Tabuada/index.html"></iframe><a href="./13-Projeto_Tabuada/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./14-Projeto_Analisando_Número/index.html"></iframe><a href="./14-Projeto_Analisando_Número/index.html" target="_blank">Ver site</a></li>
-            <li><iframe src="./15_Projeto_Videos/index.html"></iframe><a href="./15_Projeto_Videos/index.html" target="_blank">Ver site</a></li>
-        </ul>
-        <a href="#mais">Ver mais</a>
-    </div>
+    <script src="./script.js">
 
-    <div class="lista" id="mais">
-        <a href="#js" class="voltar">Voltar</a>
-        <h2>Mais projetos com HTML, CSS e JS</h2>
-        <ul class="ul">
-            <li><iframe src="./16_projeto_glass/index.html"></iframe><a href="./16_projeto_glass/index.html" target="_blank">Ver site</a></li>
-        </ul>
-        <a href="#react">Projetos com React</a>
-    </div>
 
-    <div class="lista" id="react">
-        <a href="#mais" class="voltar">Voltar</a>
-        <h2>Com React</h2>
-        <ul class="ul">
-            <li><iframe src="https://my-spotify-eosin.vercel.app/"></iframe><a href="https://my-spotify-eosin.vercel.app/" target="_blank">Ver site</a></li>
-            <li><iframe src="https://coffeexp.vercel.app/"></iframe><a href="https://coffeexp.vercel.app/" target="_blank">Ver site</a></li>
-        </ul>
-    </div>
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    </script>
 </body>
 
 </html>

@@ -15,8 +15,8 @@
     ],
     "java_spring": [
         {
-            "description": "Projeto utilizando Java + Spring",
-            "link": "https://banco-dev-week-production.up.railway.app/swagger-ui/index.html",
+            "description": "Projeto utilizando Java + SpringBoot",
+            "link": "https://github.com/jeovanedossantossantos/banco-dev-week",
             "name": "Banco Dev Week",
             "img": "img/devweek_spring.png"
         }

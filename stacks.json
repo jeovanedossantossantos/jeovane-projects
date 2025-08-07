@@ -1,4 +1,42 @@
-{
+{    "react_native": [
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/mines",
+            "name": "Campo Minado",
+            "img": "img/mines.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/calculadora",
+            "name": "Calculadora",
+            "img": "img/calculadora.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/rncrud",
+            "name": "CRUD Mobile",
+            "img": "img/rncrud.png"
+        },
+        {
+            "description": "Projeto utilizando React Native",
+            "link": "https://github.com/jeovanedossantossantos/task",
+            "name": "Task Manager",
+            "img": "img/task.png"
+        }
+    ],"react": [
+        {
+            "description": "Projeto utilizando React",
+            "link": "https://my-spotify-eosin.vercel.app/",
+            "name": "My Spotify",
+            "img": "img/my_spotify.png"
+        },
+        {
+            "description": "Projeto utilizando React",
+            "link": "https://coffeexp.vercel.app/",
+            "name": "CoffeeXP",
+            "img": "img/coffeexp.png"
+        }
+    ],
     "nodejs": [
         {
             "description": "Projeto utilizando Node.js",
@@ -135,44 +173,6 @@
             "img": "img/glass.png"
         }
     ],
-    "react": [
-        {
-            "description": "Projeto utilizando React",
-            "link": "https://my-spotify-eosin.vercel.app/",
-            "name": "My Spotify",
-            "img": "img/my_spotify.png"
-        },
-        {
-            "description": "Projeto utilizando React",
-            "link": "https://coffeexp.vercel.app/",
-            "name": "CoffeeXP",
-            "img": "img/coffeexp.png"
-        }
-    ],
-    "react_native": [
-        {
-            "description": "Projeto utilizando React Native",
-            "link": "https://github.com/jeovanedossantossantos/mines",
-            "name": "Campo Minado",
-            "img": "img/mines.png"
-        },
-        {
-            "description": "Projeto utilizando React Native",
-            "link": "https://github.com/jeovanedossantossantos/calculadora",
-            "name": "Calculadora",
-            "img": "img/calculadora.png"
-        },
-        {
-            "description": "Projeto utilizando React Native",
-            "link": "https://github.com/jeovanedossantossantos/rncrud",
-            "name": "CRUD Mobile",
-            "img": "img/rncrud.png"
-        },
-        {
-            "description": "Projeto utilizando React Native",
-            "link": "https://github.com/jeovanedossantossantos/task",
-            "name": "Task Manager",
-            "img": "img/task.png"
-        }
-    ]
+    
+
 }
